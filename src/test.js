@@ -1,5 +1,5 @@
-import uuid from "uuid"
+import {v4} from "uuid"
 
-const test = () => "Updated module. ID: " + uuid.v4();
+const test = () => "Updated module. ID: " + v4();
 
 export default test;
