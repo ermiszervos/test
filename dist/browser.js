@@ -7,7 +7,7 @@ function $parcel$export(e, n, v, s) {
 $parcel$export(module.exports, "add", () => $882b6d93070905b3$export$e16d8520af44a096);
 
 function $882b6d93070905b3$export$e16d8520af44a096(a, b) {
-    return a + b + (0, $8zHUo$uuid.v4)();
+    return `${a} + ${b} = ${a + b}, uuid = ${(0, $8zHUo$uuid.v4)()}`;
 }
 
 
