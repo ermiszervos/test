@@ -1,13 +1,17 @@
 {
   "name": "njs-module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "source": "src/index.ts",
   "main": "dist/main.js",
   "module": "dist/module.js",
   "browser": "dist/browser.js",
   "types": "dist/types.d.ts",
   "description": "test",
-  "targets": {"browser":{"includeNodeModules": false}},
+  "targets": {
+    "browser": {
+      "includeNodeModules": false
+    }
+  },
   "scripts": {
     "dev": "parcel ./demo.html --dist-dir demo-build",
     "build": "parcel build ./src/index.ts",
