@@ -1,0 +1,1 @@
+{"mappings":";;;;;;;AAAA;AAEO,SAAS,0CAAI,CAAS,EAAE,CAAS,EAAE;IACxC,OAAO,AAAC,IAAI,IAAK,CAAA,GAAA,cAAE,AAAD;AACpB","sources":["src/index.ts"],"sourcesContent":["import {v4} from \"uuid\"\r\n\r\nexport function add(a: number, b: number) {\r\n  return (a + b) + v4();\r\n}\r\n"],"names":[],"version":3,"file":"main.js.map","sourceRoot":"../"}
